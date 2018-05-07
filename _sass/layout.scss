@@ -245,3 +245,14 @@ section {
 		color: #fefefe;
 	}
 }
+
+.top-image {
+
+	img {
+		min-height: 50%;
+		width: 50%;
+		float: right;
+		border: 2px solid #fefefe;
+		border-radius: 5px;
+	}
+}

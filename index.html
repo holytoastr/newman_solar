@@ -1,40 +1,40 @@
 ---
-title: Urban
+title: Newman Solar
 ---
 
 <section class="hero diagonal">
-	<div class="container">
+	<div class="container top-image">
+		<img src="{{ site.baseurl }}/images/clients/home3.jpg" alt="Newman Solar">
 		<h2 class="editable">Newman Solar</h2>
 		<p class="subtext editable">This is where words go.</p>
 		<p><a class="button alt" href="{{ site.baseurl }}/contact/">Contact Us</a></p>
 	</div>
 </section>
 
-<section class="diagonal patterned">
+<section class="diagonal patterned" id="clients">
 	<div class="container halves">
 		<div>
 			<h3 class="editable">Some of our work</h3>
 			<p class="editable">We take pride in our previous work and our happy customers.</p>
-			<p class="editable"><a href="{{ site.baseurl }}/portfolio/">View Full Portfolio &rarr;</a></p>
 		</div>
 		<div>
 			<ul class="image-grid">
 				{% for client in site.clients limit: 4 %}
-					<li><a href="{{ site.baseurl }}{{ client.url }}"><img src="{% include relative-src.html src=client.image_path %}"></a></li>
+					<li><img src="{% include relative-src.html src=client.image_path %}"></li>
 				{% endfor %}
 			</ul>
 		</div>
 	</div>
 </section>
 
-<section class="diagonal alternate">
+<section class="diagonal alternate" id="contact">
 	<div class="container halves">
 		<div>
 			<h1 class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.png" alt="Newman Solar" width="150"></a></h1>
 		</div>
 		<div>
-			<h3 class="editable">Something else goes here.</h3>
-			<p class="editable">Maybe services you provide?</p>
+			<h3 class="editable">Contact info goes here</h3>
+			<p class="editable">contact!</p>
 		</div>
 	</div>
 </section>
