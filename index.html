@@ -4,9 +4,10 @@ title: Newman Solar
 
 <section class="hero diagonal">
 	<div class="container top-image">
-		<img src="{{ site.baseurl }}/images/solarflag.jpg" alt="Newman Solar">
-		<h2 class="editable">Newman Solar</h2>
-		<p class="subtext editable">This is where words go.</p>
+		<h2 class="editable"> Newman Solar
+			<img src="{{ site.baseurl }}/images/solarflag.jpg" alt="Newman Solar">
+		</h2>
+		<p class="subtext editable">Newman Solar's professional sales consultants and design team can assist homeowners and business people to choose the correct Solar Panel Energy System for their home and business.  Whether you live/work in Connecticut, Long Island, the 5 boroughs or New York City or Westchester county, we can show you how to save money and help the environment using Solar Power.  We get Sunshine for free almost every day, why not use it to Power Your World?</p>
 		<p><a class="button alt" href="{{ site.baseurl }}#contact">Contact Us</a></p>
 	</div>
 </section>
@@ -38,13 +39,16 @@ title: Newman Solar
 </section>
 
 <section class="diagonal alternate" id="contact">
-	<div class="container halves">
+	<div class="container halves top-image">
 		<div>
-			<h1 class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.png" alt="Newman Solar" width="150"></a></h1>
+			<h1 class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/solarinstallation.jpg" alt="Professional solar installation" width="400"></a></h1>
 		</div>
 		<div>
-			<h3 class="editable">Contact info goes here</h3>
-			<p class="editable">contact!</p>
+			<h3 class="editable">{{ site.data.company.title }}</h3>
+			<p class="editable">{{ site.data.company.address }} </br>
+				{{ site.data.company.contact_phone_number }} </br>
+				{{ site.data.company.contact_email_address }}
+			</p>
 		</div>
 	</div>
 </section>

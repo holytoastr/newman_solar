@@ -1,6 +1,6 @@
 title: Newman Solar
 url: "https://NewmanSolar.net"
-baseurl:
+baseurl: "http://newmansolar.s3-website-us-east-1.amazonaws.com"
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
@@ -16,7 +16,7 @@ author:
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: 
+  name:
   links:
     - https://github.com/CloudCannon/urban-jekyll-template
 
