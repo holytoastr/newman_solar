@@ -1,6 +1,6 @@
 title: Newman Solar
 url: "https://NewmanSolar.net"
-baseurl: "http://newmansolar.s3-website-us-east-1.amazonaws.com"
+baseurl: "http://newmansolar.net"
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
