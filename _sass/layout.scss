@@ -59,6 +59,10 @@ section {
 	background: #fff;
 	margin-top: -2px;
 
+	&.tight {
+		padding: 0 0;
+	}
+
 	&.diagonal {
 		-webkit-transform: skewY(-$section-rotation);
 		-moz-transform: skewY(-$section-rotation);
@@ -160,18 +164,18 @@ section {
 	display: flex;
 	flex-flow: wrap;
 	text-align: center;
+	justify-content: center;
+	align-items: center;
 	margin: 0 -20px;
 
 	li {
 		padding: 0;
-		box-sizing: border-box;
 		width: 100%;
+		max-height: auto;
 		position: relative;
 		overflow: hidden;
 		margin: 20px;
-		border-radius: 5px;
 		text-align: left;
-		border: 1px solid $brand-color;
 		line-height: 0;
 
 		@media #{$tablet} {
@@ -183,6 +187,9 @@ section {
 		}
 
 		img {
+			box-sizing: border-box;
+			border: 1px solid $brand-color;
+			border-radius: 5px;
 			min-width: 100%;
 		}
 
