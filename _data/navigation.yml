@@ -6,4 +6,4 @@ links:
 - name: Portfolio
   link: "/portfolio"
 - name: Contact
-  link: "#contact"
+  link: "/contact"

@@ -7,7 +7,7 @@
     - name: Portfolio
       link: "/portfolio"
     - name: Contact
-      link: "#contact"
+      link: "/contact"
 - title: Social
   links:
     - name: Facebook
